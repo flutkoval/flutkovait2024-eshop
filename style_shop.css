@@ -1,0 +1,205 @@
+/* main thing, same for every site */
+body {
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-top {
+    background-color: rgb(37, 37, 37);
+}
+.searchbar {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.searchbutton {
+    width: 30px;
+    background-color: rgb(37, 37, 37);
+    border: none;
+}
+.searchbutton img {
+    width: 20px;
+    width: 100%;
+}
+.placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 185, 255);
+}
+.button {
+    background-color: rgb(255, 185, 255);
+}
+.logo img {
+  width: 280px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.todd {
+    width: 50px;
+}
+.neil {
+    width: 50px;
+}
+
+header {
+    background-color: rgb(46, 46, 46); 
+    text-align: center; 
+    padding: 7px;
+}
+header p {
+    color:  rgb(255, 185, 255);
+}
+header form {
+    text-align: right;
+}
+header input[type="text"] {
+    background-color: rgb(255, 185, 255);
+}
+.big-container {
+    background-color: rgb(54, 54, 54);
+}
+
+nav {
+    background-color: rgb(37, 37, 37);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 185, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: font-size 0.3s;
+}
+
+nav ul li a:hover {
+    font-size: 25px;
+}
+
+
+/*shop thing*/
+
+main {
+    background-color: rgb(54, 54, 54);
+}
+
+main img {
+    width: 1265px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    color: rgb(255, 185, 255);
+}
+
+main p {
+    color: rgb(235, 234, 235);
+}
+
+.eshop-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;/
+}
+
+.item {
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+.name {
+    color: rgb(235, 234, 235);
+    background-color: rgb(37, 37, 37);
+    padding: 5px;
+}
+
+.prize {
+    color: rgb(255, 185, 255);
+}
+
+.item:hover img {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.container-end {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+    display: flex; 
+    justify-content: center;
+}
+
+.contacts {
+    color: rgb(255, 185, 255);
+    font-family: 'Times New Roman', Times, serif ;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    color: rgb(235, 235, 235);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.collaboration {
+    color: rgb(235, 235, 235);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.container-verybottom {
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(255, 185, 255);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
