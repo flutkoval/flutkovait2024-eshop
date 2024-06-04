@@ -1,0 +1,387 @@
+/* main thing, same for every site */
+:root {
+    --color-pink: rgb(255, 185, 255);
+    --color-whiteish: rgb(223,223,223);
+    --color-lightergrey: rgb(235, 235, 235);
+    --color-lightgrey: rgb(196, 196, 196);
+    --color-darkgrey: rgb(54, 54, 54); 
+    --color-darkergrey:  rgb(46, 46, 46);
+    --color-darkestgrey: rgb(37, 37, 37);
+}
+body {
+    background-color: var(--color-darkgrey);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-top {
+    background-color: var(--color-darkestgrey);
+    height: 30px;
+}
+.searchbar {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    height: 30px;
+}
+.searchbutton {
+    width: 40px;
+    background-color: var(--color-darkestgrey);
+    border: none;
+}
+.searchbutton img {
+    width: 20px;
+    width: 100%;
+}
+.placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color-pink)
+}
+.button {
+    background-color: var(--color-pink)
+}
+.logo img {
+  width: 280px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header {
+    background-color: var(--color-darkergrey);
+    text-align: center; 
+    padding: 7px;
+}
+header p {
+    color:  var(--color-pink)
+}
+header form {
+    text-align: right;
+}
+header input[type="text"] {
+    background-color: var(--color-pink)
+}
+.big-container {
+    background-color: var(--color-darkgrey)
+}
+nav {
+    background-color: var(--color-darkestgrey);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: var(--color-pink);
+    text-decoration: none;
+    font-size: 30px;
+    transition: font-size 0.3s;
+}
+nav ul li a:hover {
+    font-size: 25px;
+}
+
+/* home page */
+h2.aboutsf {
+    color: var(--color-darkergrey);
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.container1 {
+    background-color: var(--color-lightgrey);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.aboutgame1 {
+    color: var(--color-darkgrey);
+    font-family: 'Times New Roman', Times, serif ;
+}
+.aboutgame2 {
+    color: var(--color-darkgrey);
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h1.gameplay  {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--color-pink);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: 40px;
+}
+
+.gameplay1 {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gameplay2 {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1.aboutcreator {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--color-pink);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: 40px;
+}
+
+p.creator {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container2 {
+    max-width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1.questions {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--color-pink);
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: 40px;
+}
+
+summary {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.QA1 {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.QA2 {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-news {
+    background-color: var(--color-lightgrey);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h3.news {
+    display: flex;
+    justify-content: center;
+    color: var(--color-darkgrey);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.submit {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* cart */
+
+h1.cart {
+    color: var(--color-pink);
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 20px;
+
+}
+
+p.form {
+    text-align: center;
+    color: var(--color-darkestgrey);
+}
+
+.formular {
+    background-color:var(--color-lightgrey);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox label {
+    color: var(--color-whiteish); 
+    font-weight: bold; 
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.left-button,
+.right-button {
+    padding: 10px 20px;
+    color: var(--color-darkgrey);
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-whiteish);
+}
+@media screen and (max-width: 700px) {
+    .formular {
+    width: 350px;
+    text-align: center;
+    }
+}
+
+/* shop */
+
+main{
+    background-color: var(--color-darkgrey);
+}
+
+img {
+    width: 1265px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    color: var(--color-pink);
+}
+
+main p {
+    color: var(--color-lightergrey);
+}
+
+.eshop-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;/
+}
+
+.item {
+    text-align: center;
+    background-color: var(--color-darkergrey);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+.name {
+    color: var(--color-lightergrey);
+    background-color: var(--color-darkestgrey);
+    padding: 5px;
+}
+
+.prize {
+    color: var(--color-pink);
+}
+
+.item:hover img {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+/* footer */
+
+.container-end {
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:var(--color-darkestgrey);
+    display: flex; 
+    justify-content: center;
+}
+
+h1.contacts {
+    color: var(--color-pink);
+    font-family: 'Times New Roman', Times, serif ;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#mask {
+    width: 30px;
+}
+
+.email {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.collaboration {
+    color: var(--color-lightergrey);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: var(--color-darkestgrey);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: var(--color-pink);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="style_cart.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-top">
@@ -15,9 +15,7 @@
     </div>
     <header>
         <div class="header">
-            <img src="img/og/travis.png" class="travis">
             <a href="home.html"><h1 class="logo"><img src="img/sallyfacelogo.png"></h1></a>
-            <img src="img/og/ashley.png" class="ashley">
         </div>
         <p>A DARK MYSTERY IS UNFOLDING...</p>
     </header>
@@ -30,34 +28,24 @@
         </ul>
     </nav>
 <main>
-    <div class="container-formular">
-        <h1>CART</h1>
-        <div class="formular">
-            <form class="formularr">
-                <p class="form">NAME</p>
-                <input type="text" placeholder="First" style="width: 450px;" required>
-                <input type="text" placeholder="Last" style="width: 450px;" required>
-            </form>
-        </div>
-        <div class="formular">
-            <form class="formularr">
-                <p class="form">PHONE NUMBER</p>
-                <input type="text" placeholder="### ### ###" style="width: 900px;" required>
-                <p class="form">EMAIL</p>
-                <input type="email" placeholder="@.com" style="width: 900px;" required>
-            </form>
-        </div>
-        <div class="formular">
-            <form class="formularr">
-                <p class="form">DELIVERY ADDRESS</p>
-                <input type="text" placeholder="Street Address" style="width: 450px;" required>
-                <input type="text" placeholder="Street Address Line 2" style="width: 450px;" ><br>
-                <input type="text" placeholder="City" style="width: 450px;" required >
-                <input type="text" placeholder="State" style="width: 450px;" required><br>
-                <input type="text" placeholder="Postal / Zip Code" style="width: 450px;" required>
-                <input type="text" placeholder="Country" style="width: 450px;" required><br>
-            </form>
-        </div>
+    <h1 class="cart">CART</h1>
+            <div class="formular">
+                <form class="formularr">
+                    <p class="form">NAME</p>
+                    <input type="text" placeholder="First" required>
+                    <input type="text" placeholder="Last" required>
+                    <p class="form">PHONE NUMBER & EMAIL ADDRESS</p>
+                    <input type="text" placeholder="### ### ###" required >
+                    <input type="email" placeholder="@.com" required>
+                    <p class="form">DELIVERY ADDRESS</p>
+                    <input type="text" placeholder="Street Address" required>
+                    <input type="text" placeholder="Street Address Line 2" ><br>
+                    <input type="text" placeholder="City" required >
+                    <input type="text" placeholder="State" required><br>
+                    <input type="text" placeholder="Postal / Zip Code" required>
+                    <input type="text" placeholder="Country" required><br>
+                </form>
+            </div>
         <div class="checkbox">
             <label for="robotCheck">I'm not a robot</label>
             <input type="checkbox" required>
@@ -67,14 +55,13 @@
             <input type="checkbox" required>
         </div>
         <div class="buttons">
-            <a href="home.html"><button type="button" class="left-button">Back</button></a>
-            <button type="submit" class="right-button">Payment</button>
+            <a href="shop.html"><button type="button" class="left-button">Back</button></a>
+            <button type="submit" class="right-button">Pay</button>
         </div>
+    <div class="container-end">
+        <img src="img/masklight.png" id="mask">
     </div>
-    <div class="container-end" >
-        <img src="img/masklight.png" style="width: 30px;">
-    </div>
-    <div class="container-verybottom">
+    <div>
         <h1 class="contacts"> CONTACTS </h1>
         <p class="email"> EMAIL - contactsallyface@email.com</p>
         <p class="collaboration">COLABORATIONS - if you are interested in colaborating, please contact us on our email</p>
